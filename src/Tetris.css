@@ -1,0 +1,23 @@
+.tetris-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.tetris-board {
+  position: relative;
+  background: #222;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.tetris-cell {
+  box-sizing: border-box;
+  position: absolute;
+  transition: background 0.1s;
+}
+.tetris-gameover {
+  color: #f00;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
